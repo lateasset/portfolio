@@ -436,9 +436,11 @@ a.active {
 .project-name {
     text-align: center;
     position: absolute;
-    width: 150px;
+    width: 290px;
     height: 95px;
     top: 320px;
+    right: 20px;
+    left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
