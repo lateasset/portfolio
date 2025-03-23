@@ -1,120 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Riccardo Rodriguez's Portfolio</title>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />                                                                                                                                
+
+    <!-- WEB INFO -->
+    <title>Riccardo Rodriguez - Portfolio</title>
+    <meta name="description" content="My name is Riccardo Rodriguez, let me illustrate my quest as a game developer.">
+    <!--meta name="keywords" content="riccardo, riccardorodriguez, riccardo rodriguez"-->
+
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
+</head>
 
-    <canvas id="bg"></canvas>   
+<body>
+    <!-- GO UP BUTTON -->
+    <button id="go-up-button">
+        <i class="material-icons">arrow_upward</i>
+    </button>
 
-    <main>
+    <!-- BEGINNING -->
+    <section class="beginning" id="beginning">
+        <div class="content">
+            <header class="beginning-header">
+                <div class="header-content">
+                    <nav class="" id="nav">
+                        <ul id="links">
+                            <li><a href="#about-me" class="links-a">ABOUT ME</a></li>
+                            <li><a href="#projects" class="links-a">PROJECTS</a></li>
+                            <li><a href="#skills" class="links-a">SKILLS</a></li>
+                            <li><a href="#contact" class="links-a">CONTACT ME</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nav-icon" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="social-networks">
+                        <a href="https://shadow-rr-94.itch.io" target="_blank"><i class="fa-brands fa-itch social-networks-a"></i></a>
+                        <a href="https://www.linkedin.com/in/riccardo-rodriguez-178162256" target="_blank"><i class="fa-brands fa-linkedin social-networks-a"></i></a>
+                        <a href="https://github.com/lateasset" target="_blank"><i class="fa-brands fa-github social-networks-a"></i></a>
+                    </div>
+                    <div class="idioms-container">
+                        <a href="index.html" class="idiom-a active">ENGLISH</a>
+                        <a href="index_italian.html" class="idiom-a">SPANISH</a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="presentation-welcome">Welcome</p>
+                <h2 class="presentation-title">I am <span class="presentation-span">Riccardo Rodriguez</span>, Game Developer and Software Engineer</h2>
+                <p class="presentation-description"></p>
+                <a href="#projects" class="presentation-a">Jump to the projects</a>
+            </div>
+        </div>
+    </section>
 
-      <header>
-        <h1>Riccardo Rodriguez</h1>
-        <p>Welcome!</p>
-      </header>
-
-
-      <blockquote>
-        <p>My name is Riccardo Rodriguez, let me illustrate my quest as a game developer.</p>
-      </blockquote>
-
-      <section>
-        <h2>About me</h2>
-        <p>
-          I am a Computer Engineer with an early career in DevOps, I acquired a solid experience in gameplay and graphics programming, but also working knowledge of 3D art.
-        </p>
-
-        <p>
-          Unity 3D and OpenGL/GLSL were my introduction to real-time graphics, but I am currently exploring Unreal Engine while I study design principles.
-        </p>
-
-        <p>
-          Among my past experiences, the ones involving teamwork were the most fulfilling and especially when participating in creative projects or even when subject to crazy schedules like game jams.
-        </p>
-
-        <p>
-          I am also in love with (mostly) old movies, history and a good deal of sports.
-        </p>
-
-      </section>
-
-      <section class="light">
-        <h2> Game Jams</h2>
-
-        <h3> Global Game Jam 2025: Spacebubbles </h3>
-        <p>
-          A dangerous venture in deep space to retrieve slimy bubbles while staying clear from danger.
-        </p>
-        <p>
-          My contribution can be seen especially in level design and decorative 3D art
-        </p>
-        
-        <h3> Ludum Dare April 2025: Coming soon </h3>
-        <p>
-          
-        </p>
-
-      </section>
-
-      <section>
-        <h2> Student projects</h2>
-        <h3> Thesis </h3>
-        <p>
-          As the name implies, the project revolved around the development of an AR solution for position tracking of objects as captured by a Hololens 1 device; it was developed as a client inside Unity engine with accessory networking elements and UWP implementation, and server leveraging the OpenCV library in C++.
-        </p>
-
-        <h3> The awakening </h3>
-        <p>
-          A narrative adventure centered around a mysterious train accident that killed every passenger on board… or did it?
-        </p>
-        <p>
-          I contributed towards 3D art, materials, narrative design and animated elements in game
-        </p>
-
-        <h3> The last chance II </h3>
-        <p>
-          This one was set up as a continuation of the previous, so I was able to recycle assets, the rigging was especially useful even though the resulting video displays terrible animation timing and editing.
-        </p>
-        <p>
-          The main focus was on destruction, emission particles and volumetrics, secondarily cloth, dynamic normal painting and human motion
-        </p>
-
-        <h3> The last chance I </h3>
-        <p>
-          This project was geared towards rendering and 3D simulation basics, as well as Graphics pipeline programming.
-        </p>
-        <p>
-          I focused especially on modelling the tanks, rigging them to simulate track dynamics, materials, basic physics simulations and some rendering specificities such as lighting the scene; a mini game was also included, but it got lost to time and especially legacy/deprecated (at least on Mac OS) C++ frameworks OpenGL/GLUT
-        </p>
-
-      </section>
-
-      <blockquote>
-        <p>Thanks for watching!</p>
-      </blockquote>
-
-      <section>
-        <h2>Contact me</h2>
-        <p>
-          <a href="www.linkedin.com/in/riccardo-rodriguez-178162256">LinkedIn</a>
-        </p>
-
-        <p>
-          <a href="mailto:ric.rod94@gmail.com">E-Mail</a> 
-        </p>
-
-      </section>
-
-
-    </main>
+    <!-- ABOUT ME -->
+    <section id="about-me">
+        <div class="photo-container">
+            <img src="./images/ric.jpg" class="photo-container-img" alt="">
+        </div>
+        <div class="about-me">
+            <h4 class="about-me-title">ABOUT ME</h4>
+            <ul>
+                <li class="about-me-developer-paragraph">I'm in my first year of the <b>University Degree in Video Game Development</b> at the National Technological University (UTN) of Argentina</li>
+                <li class="about-me-developer-paragraph">I was awarded a <b>full scholarship</b> to study there for <b>winning a game development contest</b> organized by the university</li>
+                <li class="about-me-developer-paragraph">I <b>passed the FCE</b> (First Certificate In English) with an <b>A (180/190)</b>. I demonstrated <b>ability at Level C1</b></li>  
+            </ul>
+        </div>
+    </section>
+  
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <h3 class="projects-main-title">RELEVANT PROJECTS</h3>
+        <p class="projects-subtitle"><i>All of them have been developed using Unity*</i></p>
+        <h2 class="projects-voodoo-title">GAMES ASSOCIATED WITH VOODOO</h2>
+        <div class="project-row">
+            <div class="project project-circle-combat" id="project">
+                <div class="project-image match-3-pass-gameplay"></div>
+                <div class="project-icon match-3-pass-icon"></div>
+                <h4 class="project-name">Match 3 Pass</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.Match3Pass&hl=en&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div> 
+            <div class="project project-circle-combat" id="project">
+                <div class="project-image shake-it-and-find-it-gameplay"></div>
+                <div class="project-icon shake-it-and-find-it-icon"></div>
+                <h4 class="project-name">Shake It and Find It</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.ShakeItandFindIt&hl=es_419&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>   
+            <div class="project project-circle-combat" id="project">
+                <div class="project-image circle-combat-gameplay"></div>
+                <div class="project-icon circle-combat-icon"></div>
+                <h4 class="project-name">Circle Combat</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.CircleCombat&hl=es_AR&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>   
+        </div>
+        <h2 class="projects-indie-games-title">PERSONAL INDIE GAMES</h2>
+        <div class="project-row">
+            <div class="project" id="project">
+                <div class="project-image world-cup-collector-gameplay"></div>
+                <div class="project-icon world-cup-collector-icon"></div>
+                <h4 class="project-name">World Cup Collector</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.WorldCupCollector&hl=es_AR&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>   
+            <div class="project" id="project">
+                <div class="project-image protect-the-ufo-gameplay"></div>
+                <div class="project-icon protect-the-ufo-icon"></div>
+                <h4 class="project-name">Protect the UFO</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.ProtecttheUFO&hl=es_AR&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>
+            <div class="project" id="project">
+                <div class="project-image swipe-never-stop-gameplay"></div>
+                <div class="project-icon swipe-never-stop-icon"></div>
+                <h4 class="project-name">Swipe Never Stop</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.LettaCorporation.SwipeNeverStop&hl=es_AR&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>
+        </div>
+        <h2 class="freelance-projects-title">FREELANCE PROJECTS</h2>
+        <p class="freelance-projects-subtitle"><i>Only projects that I have the client's permission are showcased *</i></p>
+        <div class="project-row">
+            <div class="project" id="project">
+                <div class="project-image barrel-blitz-gameplay"></div>
+                <div class="project-icon barrel-blitz-icon"></div>
+                <h4 class="project-name">Barrel Blitz</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.OrimGames.BarrelBlitzPlaytoEarn&hl=en&gl=US" class="project-button" target="_blank">Get it on Google Play</a>
+            </div>
+        </div>
+    </section>
     
-    <script type="module" src="/main.js"></script>
+    <!-- SKILLS ->
+    <section class="skills" id="skills">
+        <h3 class="skills-main-title">SKILLS</h3>
+        <ul class="skill-ul">
+            <li class="skill-li"><h4>Programming: C++, C#, Python (Advanced)</h4></li>
+            <li class="skill-li"><h4>Unity engine (Intermediate)</h4></li>
+            <li class="skill-li"><h4>Blender (Intermediate)</h4></li>
+            <li class="skill-li"><h4>Unreal Engine (Basic)</h4></li>
+            <li class="skill-li"><h4>OpenGL/GLSL (Basic)</h4></li>
+        </ul>
+    </section-->
 
-  </body>
+    <!-- CONTACT -->
+    <div class="contact" id="contact">
+        <h3 class="contact-main-title">Contact me</h3>
+        <p>
+            Contacts and CV: <a href="www.linkedin.com/in/riccardo-rodriguez-178162256">LinkedIn</a>
+        </p>
+        <!--p class="social-networks-end">ric.rod94@gmail.com</p>
+        <!-form class="contact-form" action="https://formspree.io/f/xvolzdaa" method="POST">
+            <label class="contact-label">Name</label>
+            <input class="contact-input-field" type="name" name="Name">
+            <label class="contact-label">Subject</label>
+            <input class="contact-input-field" type="text" name="Subject">
+            <label class="contact-label">Email</label>
+            <input class="contact-input-field" type="email" name="Quien lo envió">
+            <label class="contact-label">Message</label>
+            <textarea class="contact-input-field contact-textarea" type="message" name="Message"></textarea>
+            <input class="contact-submit-button" type="submit" value="Send">
+        </form-->
+    </div>
+
+    <!-- FOOTER ->
+    <footer class="footer">
+        <p>Si vis pacem...</p>
+    </footer-->
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/go_up.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/testimonial_slider.js"></script>
+    <script type="text/javascript" src="js/responsive_testimonials_text.js"></script>
+</body>
 </html>
