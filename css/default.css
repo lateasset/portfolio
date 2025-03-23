@@ -335,20 +335,6 @@ a.active {
     letter-spacing: 5px;
 }
 
-.freelance-projects-title {
-    text-align: center;
-    padding-bottom: 5px;
-    font-size: 27px;
-    letter-spacing: 5px;
-    padding-top: 30px;
-}
-
-.freelance-projects-subtitle {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 25px;
-}
-
 .project-circle-combat {
     margin-bottom: 30px;
 }
@@ -426,51 +412,12 @@ a.active {
 
 .project-name {
     text-align: center;
-    position: absolute;
     width: 290px;
     height: 95px;
-    top: 320px;
-    right: 20px;
-    left: 20px;
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 23px;
-}
-
-.match-3-pass-icon {
-    background-image: url(../images/relevant_projects/Icons/Match3PassIcon.jpg);
-    background-size: cover;     
-}
-
-.shake-it-and-find-it-icon {
-    background-image: url(../images/relevant_projects/Icons/ShakeItAndFindItIcon.png);
-    background-size: cover;    
-}
-
-.circle-combat-icon {
-    background-image: url(../images/relevant_projects/Icons/CircleCombatIcon.png);
-    background-size: cover;
-}
-
-.world-cup-collector-icon {
-    background-image: url(../images/relevant_projects/Icons/WorldCupCollectorIcon.jpg);
-    background-size: cover;
-}
-
-.protect-the-ufo-icon {
-    background-image: url(../images/relevant_projects/Icons/ProtectTheUFOIcon.jpg);
-    background-size: cover;
-}
-
-.swipe-never-stop-icon {
-    background-image: url(../images/relevant_projects/Icons/SwipeNeverStopIcon.png);
-    background-size: cover;
-}
-
-.barrel-blitz-icon {
-    background-image: url(../images/relevant_projects/Icons/BarrelBlitz.jpg);
-    background-size: cover;
 }
 
 .project-button {
