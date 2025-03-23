@@ -335,6 +335,10 @@ a.active {
     letter-spacing: 5px;
 }
 
+.project-spacebubbles {
+    margin-bottom: 30px;
+}
+
 .project-circle-combat {
     margin-bottom: 30px;
 }
@@ -404,6 +408,13 @@ a.active {
     background-size: cover;   
 }
 
+.projects-university {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+
 .projects-indie-games-title {
     text-align: center;
     padding-bottom: 20px;
@@ -421,7 +432,7 @@ a.active {
 
 .project {
     width: 330px;
-    height: 800px;
+    height: 1000px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
