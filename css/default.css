@@ -328,6 +328,13 @@ a.active {
     padding-bottom: 12.5px;
 }
 
+.projects-personal-title {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+
 .projects-voodoo-title {
     text-align: center;
     padding-bottom: 30px;
@@ -337,10 +344,6 @@ a.active {
 
 .project-spacebubbles {
     height: 500px;
-    margin-bottom: 30px;
-}
-
-.project-circle-combat {
     margin-bottom: 30px;
 }
 
@@ -371,43 +374,7 @@ a.active {
 
 .the-last-chanche-i {
     background-image: url(../images/relevant_projects/GameplayGifs/panzer.png);
-    background-size: cover;   
-}
-
-.match-3-pass-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/Match3PassGameplay.gif);
-    background-size: cover;   
-}
-
-.shake-it-and-find-it-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/ShakeItAndFindItGameplay.gif);
-    background-size: cover;   
-}
-
-.circle-combat-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/CircleCombatGameplay.gif);
     background-size: cover;
-}
-
-.world-cup-collector-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/WorldCupCollectorGameplay.gif);
-    background-size: cover;   
-}
-
-.protect-the-ufo-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/ProtectTheUFOGameplay.gif);
-    background-size: cover;   
-}
-
-.swipe-never-stop-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/SwipeNeverStopGameplay.gif);
-    background-size: cover;   
-}
-
-.barrel-blitz-gameplay {
-    background-image: url(../images/relevant_projects/GameplayGifs/BarrelBlitz.gif);
-    background-size: cover;   
-}
 
 .project-university {
     text-align: center;
@@ -416,12 +383,15 @@ a.active {
     letter-spacing: 5px;
 }
 
-.project-thesis {
+.projects-university {
     text-align: center;
-    height: 1000px;
     padding-bottom: 20px;
     font-size: 27px;
     letter-spacing: 5px;
+}
+
+.project-thesis {
+    height: 1000px;
 }
 
 .projects-indie-games-title {
