@@ -421,7 +421,7 @@ a.active {
 
 .project {
     width: 330px;
-    height: 500px;
+    height: 800px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
