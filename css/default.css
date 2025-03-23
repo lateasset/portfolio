@@ -52,7 +52,7 @@ a {
 
 /* BEGINNING */
 .beginning {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/images/background-beginning2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/background-beginning2.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -254,248 +254,9 @@ a.active {
     background-color: #ff5080;
 }
 
-/* PROFESSIONAL EXPERIENCE */
-.professional-experience {
-    padding: 35px;
-    background-color: #f3f3f3;
-}
-
-.professional-experience-title {
-    font-size: 35px;  
-    margin-bottom: 25px; 
-    color: #111135;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 3px;
-    text-align: center;
-}
-
-.professional-experience-row {
-    max-width: 1500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-
-.professional-experience-element {
-    width: 400px;
-    height: 100%;
-    margin-bottom: 25px;
-    transition: .3s;
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
-    background-color: #ffffff;
-}
-
-.professional-experience-element:hover {
-    scale: 1.075;
-}
-
-.professional-experience-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.professional-experience-image {
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    background-position: center center;
-}
-
-.professional-experience-image-voodoo {
-    background-image: url(/images/professional_experience/Voodoo.png);
-}
-
-.professional-experience-image-youtube {
-    background-image: url(/images/professional_experience/YouTube.png);
-}
-
-.professional-experience-image-zenva {
-    background-image: url(/images/professional_experience/Zenva.png);
-}
-
-.professional-experience-image-udemy {
-    background-image: url(/images/professional_experience/Udemy.png);
-}
-
-.professional-experience-name {
-    font-size: 17px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.aoni-experience-name {
-    font-size: 19px;
-}
-
-.professional-experience-description {
-    font-size: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 6.5px;
-}
-
-.professional-experience-date {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 12px;  
-    padding-bottom: 10px;
-    font-weight: 600;
-}
-
-/* CERTIFICATES */
-.certificates {
-    padding: 35px;
-    background-color: #fff;
-}
-
-.certificates-title {
-    font-size: 35px;  
-    margin-bottom: 5px; 
-    color: #111135;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 3px;
-    text-align: center;
-}
-
-.certificates-subtitle {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-
-.certificates-section-title {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 27px;
-    letter-spacing: 5px;
-}
-
-.certificates-section-title2 {
-    padding: 20px;
-}
-
-.certificates-row {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.certificates-element {
-    width: 340px;
-    height: 310px;
-    transition: .3s;
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
-    transition: .3;
-}
-
-.certificates-element:hover {
-    scale: 1.075;
-}
-
-.certificate-image {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center center;
-}
-
-.certificate-image1 {
-    background-image: url(/images/certificates/pixel-art-basic.png);
-}
-
-.certificate-image2 {
-    background-image: url(/images/certificates/pixel-art-advanced.png);
-}
-
-.certificate-image3 {
-    background-image: url(/images/certificates/essential-courses.png);
-}
-
-.certificate-image4 {
-    background-image: url(/images/certificates/unity.png);
-}
-
-.certificate-image5 {
-    background-image: url(/images/certificates/advanced-courses.png);
-}
-
-.certificate-image6 {
-    background-image: url(/images/certificates/Fiverr.jpg);
-}
-
-.certificate-image7 {
-    background-image: url(/images/certificates/communication-event.jpg);
-}
-
-.certificate-image8 {
-    background-image: url(/images/certificates/unity-2d.png);
-}
-
-.certificate-image9 {
-    background-image: url(/images/certificates/finish-it.png);
-}
-
-.certificate-image10 {
-    background-image: url(/images/certificates/godot-2d.png);
-}
-
-.certificate-image11 {
-    background-image: url(/images/certificates/unity-turn-based.png);
-}
-
-.certificate-image12 {
-    background-image: url(/images/certificates/godot-3d.jpg);
-}
-
-.certificate-image13 {
-    background-image: url(/images/certificates/unity-2d-rpg.jpg);
-}
-
-.certificate-image14 {
-    background-image: url(/images/certificates/unity-6.jpg);
-}
-
-.certificate-image15 {
-    background-image: url(/images/certificates/unity-skill-builder.jpg);
-}
-
-.certificate-image16 {
-    background-image: url(/images/certificates/godot-mobile.jpg);
-}
-
-.certificates-name {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 14.5px;
-}
-
-.certificates-information {
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-    font-size: 13.5px;  
-}
-
 /* SKILLS */
 .skills {
-    background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/background-skills.jpg");
+    background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("../images/background-skills.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -516,34 +277,6 @@ a.active {
 .skill-li {
     font-size: 25px;
     margin-bottom: 16px;
-}
-
-/* TESTIMONIAL */
-.testimonial {
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/background-testimonial.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-  
-.testimonial-quote {
-    font-size: 1.2em;
-    font-style: italic;
-    line-height: 1.5;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-}
-  
-.testimonial-quote footer {
-    margin-top: 15px;
-    font-size: 1em;
-    font-style: normal;
-    color: #ccc;
 }
 
 .verify-link {
@@ -621,37 +354,37 @@ a.active {
 }
 
 .match-3-pass-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/Match3PassGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/Match3PassGameplay.gif);
     background-size: cover;   
 }
 
 .shake-it-and-find-it-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/ShakeItAndFindItGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/ShakeItAndFindItGameplay.gif);
     background-size: cover;   
 }
 
 .circle-combat-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/CircleCombatGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/CircleCombatGameplay.gif);
     background-size: cover;
 }
 
 .world-cup-collector-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/WorldCupCollectorGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/WorldCupCollectorGameplay.gif);
     background-size: cover;   
 }
 
 .protect-the-ufo-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/ProtectTheUFOGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/ProtectTheUFOGameplay.gif);
     background-size: cover;   
 }
 
 .swipe-never-stop-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/SwipeNeverStopGameplay.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/SwipeNeverStopGameplay.gif);
     background-size: cover;   
 }
 
 .barrel-blitz-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/BarrelBlitz.gif);
+    background-image: url(../images/relevant_projects/GameplayGifs/BarrelBlitz.gif);
     background-size: cover;   
 }
 
@@ -705,7 +438,6 @@ a.active {
     position: absolute;
     width: 150px;
     height: 95px;
-    right: 27.5px;
     top: 320px;
     display: flex;
     justify-content: center;
@@ -714,37 +446,37 @@ a.active {
 }
 
 .match-3-pass-icon {
-    background-image: url(/images/relevant_projects/Icons/Match3PassIcon.jpg);
+    background-image: url(../images/relevant_projects/Icons/Match3PassIcon.jpg);
     background-size: cover;     
 }
 
 .shake-it-and-find-it-icon {
-    background-image: url(/images/relevant_projects/Icons/ShakeItAndFindItIcon.png);
+    background-image: url(../images/relevant_projects/Icons/ShakeItAndFindItIcon.png);
     background-size: cover;    
 }
 
 .circle-combat-icon {
-    background-image: url(/images/relevant_projects/Icons/CircleCombatIcon.png);
+    background-image: url(../images/relevant_projects/Icons/CircleCombatIcon.png);
     background-size: cover;
 }
 
 .world-cup-collector-icon {
-    background-image: url(/images/relevant_projects/Icons/WorldCupCollectorIcon.jpg);
+    background-image: url(../images/relevant_projects/Icons/WorldCupCollectorIcon.jpg);
     background-size: cover;
 }
 
 .protect-the-ufo-icon {
-    background-image: url(/images/relevant_projects/Icons/ProtectTheUFOIcon.jpg);
+    background-image: url(../images/relevant_projects/Icons/ProtectTheUFOIcon.jpg);
     background-size: cover;
 }
 
 .swipe-never-stop-icon {
-    background-image: url(/images/relevant_projects/Icons/SwipeNeverStopIcon.png);
+    background-image: url(../images/relevant_projects/Icons/SwipeNeverStopIcon.png);
     background-size: cover;
 }
 
 .barrel-blitz-icon {
-    background-image: url(/images/relevant_projects/Icons/BarrelBlitz.jpg);
+    background-image: url(../images/relevant_projects/Icons/BarrelBlitz.jpg);
     background-size: cover;
 }
 
@@ -949,30 +681,30 @@ a.active {
 
 @media screen and (max-width:900px) {
     .match-3-pass-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/Match3PassGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/Match3PassGameplay.png);
     }
     .shake-it-and-find-it-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/ShakeItAndFIndItGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/ShakeItAndFIndItGameplay.png);
     }
 
     .circle-combat-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/CircleCombatGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/CircleCombatGameplay.png);
     }
 
     .world-cup-collector-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/WorldCupCollectorGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/WorldCupCollectorGameplay.png);
     }
 
     .protect-the-ufo-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/ProtectTheUFOGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/ProtectTheUFOGameplay.png);
     }
 
     .swipe-never-stop-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/SwipeNeverStopGameplay.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/SwipeNeverStopGameplay.png);
     }
 
     .barrel-blitz-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/BarrelBlitz.png);
+        background-image: url(../images/relevant_projects/GameplayPngs/BarrelBlitz.png);
     }
 }
 
