@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />                                                                                                                                
+
+    <!-- WEB INFO -->
+    <title>Riccardo Rodriguez - Portfolio</title>
+    <meta name="description" content="My name is Riccardo Rodriguez, let me illustrate my quest as a game developer.">
+    <!--meta name="keywords" content="riccardo, riccardorodriguez, riccardo rodriguez"-->
+
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+
+<body>
+    <!-- GO UP BUTTON -->
+    <button id="go-up-button">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <!-- BEGINNING -->
+    <section class="beginning" id="beginning">
+        <div class="content">
+            <header class="beginning-header">
+                <div class="header-content">
+                    <nav class="" id="nav">
+                        <ul id="links">
+                            <li><a href="#about-me" class="links-a">SU DI ME</a></li>
+                            <li><a href="#projects" class="links-a">PROGETTI</a></li>
+                            <!--li><a href="#skills" class="links-a">COMPETENZE</a></li-->
+                            <li><a href="#contact" class="links-a">CONTATTI</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nav-icon" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="social-networks">
+                        <a href="https://shadow-rr-94.itch.io" target="_blank"><i class="fa-brands fa-itch-io social-networks-a"></i></a>
+                        <a href="https://www.linkedin.com/in/riccardo-rodriguez-178162256" target="_blank"><i class="fa-brands fa-linkedin social-networks-a"></i></a>
+                        <a href="https://github.com/lateasset" target="_blank"><i class="fa-brands fa-github social-networks-a"></i></a>
+                    </div>
+                    <div class="idioms-container">
+                        <a href="index.html" class="idiom-a active">ENGLISH</a>
+                        <a href="index_italian.html" class="idiom-a">ITALIANO</a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="presentation-welcome">Benvenuti</p>
+                <h2 class="presentation-title">Mi chiamo <span class="presentation-span">Riccardo Rodriguez</span>, lasciatevi introdurre al mio viaggio da game developer.</h2>
+                <p class="presentation-description"></p>
+                <a href="#projects" class="presentation-a">Ai progetti</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about-me">
+        <div class="photo-container">
+            <img src="./images/ric.jpeg" class="photo-container-img" alt="">
+        </div>
+        <div class="about-me">
+            <h4 class="about-me-title">SU DI ME</h4>
+            <ul>
+                <li class="about-me-developer-paragraph">I am a Computer Engineer with an early career in DevOps, I acquired a solid experience in gameplay and graphics programming, but also working knowledge of 3D art.</li>
+                <li class="about-me-developer-paragraph">Unity 3D and OpenGL/GLSL were my introduction to real-time graphics, but I am currently exploring Unreal Engine while I study design principles.</li>
+                <li class="about-me-developer-paragraph">Among my past experiences, the ones involving teamwork were the most fulfilling and especially when participating in creative projects or even when subject to crazy schedules like game jams.</b></li>  
+                <li class="about-me-developer-paragraph">I am also in love with (mostly) old movies, history and a good deal of sports.</b></li>  
+            </ul>
+        </div>
+    </section>
+  
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <h3 class="projects-main-title">PROGETTI RILEVANTI</h3>
+        <p class="projects-subtitle"><i>All of them have been developed using Unity*</i></p>
+        <h2 class="projects-voodoo-title">GIOCHI INDIE PERSONALI</h2>
+        <div class="project-row">
+            <div class="project project-circle-combat" id="project">
+                <div class="project-image spacebubbles"></div>
+                <h4 class="project-name">Spacebubbles</h4>
+                <p>
+                  A dangerous venture in deep space to retrieve slimy bubbles while staying clear from danger.
+                </p>
+                <p>
+                  My contribution can be seen especially in level design and decorative 3D art
+                </p>
+                <a href="https://ironcutter24.itch.io/spacebubbles" class="project-button" target="_blank">Get it on itch.io</a>
+            </div> 
+            <div class="project project-circle-combat" id="project">
+                <div class="project-image ludum-dare"></div>
+                <h4 class="project-name">PROSSIMAMENTE: Ludum Dare Aprile 2025...</h4>
+                <p class="project-button" target="_blank">Not released yet</p>
+            </div> 
+        </div>
+        <h2 class="projects-indie-games-title">PROGETTI UNIVERSITARI</h2>
+        <div class="project-row">
+            <div class="project" id="project">
+                <div class="project-image master-thesis"></div>
+                <h4 class="project-name">Tesi Magistrale al Politecnico di Torino</h4>
+                <p>
+                    Title: "Holographic Augment Reality device tracking"
+                </p>
+                <p>
+                    Subtitle: "Tracking algorithms design and development for Microsoft Hololens"
+                </p>
+                <p>
+                  As the name implies, the project revolved around the development of an AR solution for position tracking of objects as captured by a Hololens 1 device; it was developed as a client inside Unity engine with accessory networking elements and UWP implementation, and server leveraging the OpenCV library in C++.
+                </p>
+                <a href="https://github.com/lateasset/old_projects" class="project-button" target="_blank">Explore the codebase</a>
+            </div>   
+            <div class="project" id="project">
+                <div class="project-image the-awakening"></div>
+                <h4 class="project-name">The awakening</h4>
+                <p>
+                  A narrative adventure centered around a mysterious train accident that killed every passenger on board… or did it?
+                </p>
+                <p>
+                  I contributed towards 3D art, materials, narrative design and animated elements in game
+                </p>
+                <a href="https://shadow-rr-94.itch.io/the-awakening" class="project-button" target="_blank">Get the game at itch.io</a>
+            </div>
+            <div class="project" id="project">
+                <div class="project-image the-last-chanche-ii"></div>
+                <h4 class="project-name">The last chance II</h4>
+                <p>
+                  This one was set up as a continuation of the previous, so I was able to recycle assets, the rigging was especially useful even though the resulting video displays terrible animation timing and editing.
+                </p>
+                <p>
+                  The main focus was on destruction, emission particles and volumetrics, secondarily cloth, dynamic normal painting and human motion
+                </p>
+                <a href="https://github.com/lateasset/old_projects" class="project-button" target="_blank">Explore the trailer</a>
+            </div>
+            <div class="project" id="project">
+                <div class="project-image the-last-chanche-i"></div>
+                <h4 class="project-name">The last chance I</h4>
+                <p>
+                  This project was geared towards rendering and 3D simulation basics, as well as Graphics pipeline programming.
+                </p>
+                <p>
+                  I focused especially on modelling the tanks, rigging them to simulate track dynamics, materials, basic physics simulations and some rendering specificities such as lighting the scene; a mini game was also included, but it got lost to time and especially legacy/deprecated (at least on Mac OS) C++ frameworks OpenGL/GLUT
+                </p>
+                <a href="https://github.com/lateasset/old_projects" class="project-button" target="_blank">Explore the renders</a>
+            </div>
+    </section>
+    
+    <!-- SKILLS ->
+    <section class="skills" id="skills">
+        <h3 class="skills-main-title">SKILLS</h3>
+        <ul class="skill-ul">
+            <li class="skill-li"><h4>Programming: C++, C#, Python (Advanced)</h4></li>
+            <li class="skill-li"><h4>Unity engine (Intermediate)</h4></li>
+            <li class="skill-li"><h4>Blender (Intermediate)</h4></li>
+            <li class="skill-li"><h4>Unreal Engine (Basic)</h4></li>
+            <li class="skill-li"><h4>OpenGL/GLSL (Basic)</h4></li>
+        </ul>
+    </section-->
+
+    <!-- CONTACT -->
+    <div class="contact" id="contact">
+        <h3 class="contact-main-title">Contati</h3>
+        <p class="social-networks-text">Grazie per la visione!</p>
+        <p class="social-networks-text">
+If you're interested, you can further explore my work or get in contact at the links below. 
+        </p>
+        <p class="social-networks-text">
+Contatti e CV: <a href="www.linkedin.com/in/riccardo-rodriguez-178162256">LinkedIn</a>
+        </p>
+        <p class="social-networks-text">
+Progetti indie: <a href="https://shadow-rr-94.itch.io">itch.io</a>
+        </p>
+        <p class="social-networks-text">
+<a href="mailto:ric.rod94@gmail.com">E-Mail</a>
+        </p>
+        <!--p class="social-networks-end">ric.rod94@gmail.com</p>
+        <!-form class="contact-form" action="https://formspree.io/f/xvolzdaa" method="POST">
+            <label class="contact-label">Name</label>
+            <input class="contact-input-field" type="name" name="Name">
+            <label class="contact-label">Subject</label>
+            <input class="contact-input-field" type="text" name="Subject">
+            <label class="contact-label">Email</label>
+            <input class="contact-input-field" type="email" name="Quien lo envió">
+            <label class="contact-label">Message</label>
+            <textarea class="contact-input-field contact-textarea" type="message" name="Message"></textarea>
+            <input class="contact-submit-button" type="submit" value="Send">
+        </form-->
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Work in progress</p>
+    </footer>
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/go_up.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/testimonial_slider.js"></script>
+    <script type="text/javascript" src="js/responsive_testimonials_text.js"></script>
+</body>
+</html>
