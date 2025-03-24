@@ -383,13 +383,6 @@ a.active {
     background-size: cover;
 }
 
-.project-university {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 27px;
-    letter-spacing: 5px;
-}
-
 .projects-university {
     text-align: center;
     padding-bottom: 20px;
@@ -400,13 +393,17 @@ a.active {
 .project-thesis {
     width: 330px;
     height: 1500px;
-    font-size: 25px;
+    font-size: 12px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 14px -4px, rgba(0, 0, 0, 0.3) 2px 5px 9px -5px;
     transition: .3;
+}
+
+.project-university {
+    font-size: 27px;
 }
 
 .projects-indie-games-title {
@@ -427,7 +424,6 @@ a.active {
 .project {
     width: 330px;
     height: 900px;
-    font-size: 25px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
