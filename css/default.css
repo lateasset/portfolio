@@ -400,6 +400,7 @@ a.active {
 .project-thesis {
     width: 330px;
     height: 1500px;
+    font-size: 25px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -426,6 +427,7 @@ a.active {
 .project {
     width: 330px;
     height: 900px;
+    font-size: 25px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
