@@ -354,7 +354,7 @@ a.active {
 }
 
 .spacebubbles {
-    background-image: url(../images/relevant_projects/GameplayGifs/bubbles.png);
+    background-image: url(../images/relevant_projects/bubbles.png);
     background-size: cover;   
 }
 
@@ -369,17 +369,17 @@ a.active {
 }
 
 .the-awakening {
-    background-image: url(../images/relevant_projects/GameplayGifs/the-awakening.png);
+    background-image: url(../images/relevant_projects/the-awakening.png);
     background-size: cover;   
 }
 
 .the-last-chanche-ii {
-    background-image: url(../images/relevant_projects/GameplayGifs/t-34.png);
+    background-image: url(../images/relevant_projects/t-34.png);
     background-size: cover;   
 }
 
 .the-last-chanche-i {
-    background-image: url(../images/relevant_projects/GameplayGifs/panzer.png);
+    background-image: url(../images/relevant_projects/panzer.png);
     background-size: cover;
 }
 
