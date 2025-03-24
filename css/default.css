@@ -344,7 +344,7 @@ a.active {
 
 .project-spacebubbles {
     width: 330px;
-    height: 400px;
+    height: 350px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
@@ -399,7 +399,7 @@ a.active {
 
 .project-thesis {
     width: 330px;
-    height: 1100px;
+    height: 1200px;
     transition: .3s;
     border-radius: 8px;
     position: relative;
